@@ -1,0 +1,140 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "AI English Lab",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/public/grade-select",
+			"style": {
+				"navigationBarTitleText": "公立学校模式",
+				"navigationBarBackgroundColor": "#F8F6F2",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/public/practice",
+			"style": {
+				"navigationBarTitleText": "本单元练习",
+				"navigationBarBackgroundColor": "#F8F6F2",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/international/test",
+			"style": {
+				"navigationBarTitleText": "分级测试",
+				"navigationBarBackgroundColor": "#F8F6F2",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/international/path",
+			"style": {
+				"navigationBarTitleText": "学习路径",
+				"navigationBarBackgroundColor": "#F8F6F2",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/mylearning/index",
+			"style": {
+				"navigationBarTitleText": "我的学习",
+				"navigationBarBackgroundColor": "#F8F6F2",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#F8F6F2",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/auth/register",
+			"style": {
+				"navigationBarTitleText": "创建账号",
+				"navigationBarBackgroundColor": "#F8F6F2",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/auth/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#F8F6F2",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/auth/forgot-password",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"navigationBarBackgroundColor": "#F8F6F2",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "AI English Lab",
+		"navigationBarBackgroundColor": "#F8F6F2",
+		"backgroundColor": "#F8F6F2"
+	},
+	"tabBar": {
+		"color": "#B0B0B0",
+		"selectedColor": "#2F5D62",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"text": "Home",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/public/grade-select",
+				"text": "Public",
+				"iconPath": "static/tabbar/public.png",
+				"selectedIconPath": "static/tabbar/public-active.png"
+			},
+			{
+				"pagePath": "pages/international/test",
+				"text": "International",
+				"iconPath": "static/tabbar/international.png",
+				"selectedIconPath": "static/tabbar/international-active.png"
+			},
+			{
+				"pagePath": "pages/mylearning/index",
+				"text": "My Learning",
+				"iconPath": "static/tabbar/learning.png",
+				"selectedIconPath": "static/tabbar/learning-active.png"
+			},
+			{
+				"pagePath": "pages/profile/index",
+				"text": "我的",
+				"iconPath": "static/tabbar/profile.png",
+				"selectedIconPath": "static/tabbar/profile-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
